@@ -1,0 +1,70 @@
+ggCertainly! Below is a basic HTML template for a portfolio memories webpage designed to be responsive for both phone and laptop displays. This example uses HTML and inline CSS for simplicity.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Memories</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                margin: 10px;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Card 1 -->
+        <div class="card">
+            <h2>Memory 1</h2>
+            <p>Description for Memory 1.</p>
+            <img src="image1.jpg" alt="Memory 1" style="width:100%; max-width:500px;">
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <h2>Memory 2</h2>
+            <p>Description for Memory 2.</p>
+            <img src="image2.jpg" alt="Memory 2" style="width:100%; max-width:500px;">
+        </div>
+
+        <!-- Add more cards as needed -->
+
+    </div>
+
+</body>
+
+</html>
+```
+
+Replace `image1.jpg` and `image2.jpg` with your actual image filenames. You can add more cards by copying the `<div class="card">...</div>` section.
+
+This is a basic example, and you can further enhance the design and functionality using CSS frameworks like Bootstrap or JavaScript for interactivity.
